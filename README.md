@@ -6,6 +6,9 @@ This code has been written using Python 3.6.5 & Theano 1.0.2 & Keras 2.2.0.
 ## Setting the Dialog State Tracking Challenge 5 (DSTC5) dataset
 Make a directory 'data', then put the DSTC5 data set in 'data'. If you need to ask for a dataset, contact the organizing Committees (http://workshop.colips.org/dstc5/committee.html).
 
+## Prepare the word2vec model
+Make a directory 'word2vec', then put the word2vec model for English and Chinese.
+
 ## Training
 ```console
 ❱❱❱ python train.py --lstm 100 --lr 0.005 --dropout 0.3 --epoch 100
